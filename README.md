@@ -1,14 +1,28 @@
-# Mikasa Glass Theme for Omarchy
+# Mikasa Glass
 
-A dark frosted-glass theme built around a crimson scarf, charcoal and steel. Colors are generated into every Omarchy-themed app (terminal, Neovim, VS Code, btop, Walker, notifications, Quickshell, lock screen, browser) from `colors.toml`.
+A dark frosted-glass theme for [Omarchy](https://omarchy.org), built around a crimson scarf, charcoal and steel.
 
-## Install (one command)
+![Mikasa Glass](preview.png)
+
+Colors are generated into every Omarchy-themed app (terminal, Neovim, VS Code, btop, Walker, notifications, Quickshell, lock screen, browser) from `colors.toml`. Dark mode only.
+
+## Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Abdullah-5603/arch-bash-scripts/master/omarchy-mikasa-glass/setup.sh | bash
+omarchy-theme-install https://github.com/Abdullah-5603/omarchy-mikasa-glass-theme
 ```
 
-Installs to `~/.config/omarchy/themes/mikasa-glass`, copies the 6 wallpapers into the picker and applies the theme. Optional blur/rounding: `bash ~/.config/omarchy/themes/mikasa-glass/install-glass.sh` (backs up `looknfeel.conf` first).
+## What's included
+
+| File | Purpose |
+|---|---|
+| `colors.toml` | The palette every app is generated from |
+| `shell.toml` | Frosted-glass surfaces and alpha values for the Omarchy shell |
+| `hyprland.lua` | Crimson-to-mauve window border, rounded corners and light blur |
+| `icons.theme` | `Yaru-red` icon theme |
+| `backgrounds/` | 6 wallpapers |
+| `unlock.png`, `preview-unlock.png` | Lock screen logo and preview |
+| `preview.png` | Theme picker preview |
 
 ## Palette
 
@@ -20,4 +34,6 @@ Installs to `~/.config/omarchy/themes/mikasa-glass`, copies the 6 wallpapers int
 | Red / green / yellow | `#D6404F` / `#6FA36B` / `#E8C27A` |
 | Blue / cyan / magenta | `#7FA3C7` / `#7FB5B0` / `#C9A6B4` |
 
-Dark mode only.
+## License
+
+MIT, see `LICENSE`. Wallpapers are fan art of a character from *Attack on Titan*; the artwork belongs to its respective creators.
