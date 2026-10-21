@@ -24,6 +24,17 @@ omarchy-theme-install https://github.com/Abdullah-5603/omarchy-mikasa-glass-them
 | `unlock.png`, `preview-unlock.png` | Lock screen logo and preview |
 | `preview.png` | Theme picker preview |
 
+## Wallpapers
+
+| # | File | Resolution | Size |
+|---|---|---|---|
+| 1 | [`mikasa-glass-wallpaper-1.jpg`](backgrounds/mikasa-glass-wallpaper-1.jpg) | 2752x1536 | 3.0 MB |
+| 2 | [`mikasa-glass-wallpaper-2.jpg`](backgrounds/mikasa-glass-wallpaper-2.jpg) | 2612x1632 | 2.3 MB |
+| 3 | [`mikasa-glass-wallpaper-3.jpg`](backgrounds/mikasa-glass-wallpaper-3.jpg) | 2752x1536 | 2.1 MB |
+| 4 | [`mikasa-glass-wallpaper-4.jpg`](backgrounds/mikasa-glass-wallpaper-4.jpg) | 2752x1536 | 1.8 MB |
+| 5 | [`mikasa-glass-wallpaper-5.jpg`](backgrounds/mikasa-glass-wallpaper-5.jpg) | 2816x1536 | 1.9 MB |
+| 6 | [`mikasa-glass-wallpaper-6.jpg`](backgrounds/mikasa-glass-wallpaper-6.jpg) | 2676x1568 | 2.6 MB |
+
 ## Palette
 
 | Role | Hex |
