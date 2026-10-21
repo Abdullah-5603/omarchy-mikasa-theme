@@ -18,7 +18,7 @@ omarchy-theme-install https://github.com/Abdullah-5603/omarchy-mikasa-glass-them
 |---|---|
 | `colors.toml` | The palette every app is generated from |
 | `shell.toml` | Frosted-glass surfaces and alpha values for the Omarchy shell |
-| `hyprland.lua` | Crimson-to-mauve window border, rounded corners and light blur |
+| `hyprland.lua` | Crimson-to-mauve window border |
 | `icons.theme` | `Yaru-red` icon theme |
 | `backgrounds/` | 6 wallpapers |
 | `unlock.png`, `preview-unlock.png` | Lock screen logo and preview |
@@ -28,12 +28,14 @@ omarchy-theme-install https://github.com/Abdullah-5603/omarchy-mikasa-glass-them
 
 | # | File | Resolution | Size |
 |---|---|---|---|
-| 1 | [`mikasa-glass-wallpaper-1.jpg`](backgrounds/mikasa-glass-wallpaper-1.jpg) | 2752x1536 | 3.0 MB |
-| 2 | [`mikasa-glass-wallpaper-2.jpg`](backgrounds/mikasa-glass-wallpaper-2.jpg) | 2612x1632 | 2.3 MB |
-| 3 | [`mikasa-glass-wallpaper-3.jpg`](backgrounds/mikasa-glass-wallpaper-3.jpg) | 2752x1536 | 2.1 MB |
-| 4 | [`mikasa-glass-wallpaper-4.jpg`](backgrounds/mikasa-glass-wallpaper-4.jpg) | 2752x1536 | 1.8 MB |
-| 5 | [`mikasa-glass-wallpaper-5.jpg`](backgrounds/mikasa-glass-wallpaper-5.jpg) | 2816x1536 | 1.9 MB |
-| 6 | [`mikasa-glass-wallpaper-6.jpg`](backgrounds/mikasa-glass-wallpaper-6.jpg) | 2676x1568 | 2.6 MB |
+| 1 | [`mikasa-glass-wallpaper-1.jpg`](backgrounds/mikasa-glass-wallpaper-1.jpg) | 3840x2160 | 1.4 MB |
+| 2 | [`mikasa-glass-wallpaper-2.jpg`](backgrounds/mikasa-glass-wallpaper-2.jpg) | 3840x2160 | 0.9 MB |
+| 3 | [`mikasa-glass-wallpaper-3.jpg`](backgrounds/mikasa-glass-wallpaper-3.jpg) | 3840x2160 | 0.8 MB |
+| 4 | [`mikasa-glass-wallpaper-4.jpg`](backgrounds/mikasa-glass-wallpaper-4.jpg) | 3840x2160 | 0.5 MB |
+| 5 | [`mikasa-glass-wallpaper-5.jpg`](backgrounds/mikasa-glass-wallpaper-5.jpg) | 3840x2160 | 0.6 MB |
+| 6 | [`mikasa-glass-wallpaper-6.jpg`](backgrounds/mikasa-glass-wallpaper-6.jpg) | 3840x2160 | 1.2 MB |
+
+Upscaled to 4K with waifu2x.
 
 ## Palette
 
