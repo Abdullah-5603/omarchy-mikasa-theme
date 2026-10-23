@@ -18,11 +18,21 @@ omarchy-theme-install https://github.com/Abdullah-5603/omarchy-mikasa-glass-them
 |---|---|
 | `colors.toml` | The palette every app is generated from |
 | `shell.toml` | Frosted-glass surfaces and alpha values for the Omarchy shell |
-| `hyprland.lua` | Crimson-to-mauve window border |
+| `hyprland.lua` | Crimson window border |
 | `icons.theme` | `Yaru-red` icon theme |
 | `backgrounds/` | 6 wallpapers |
 | `unlock.png`, `preview-unlock.png` | Lock screen logo and preview |
 | `preview.png` | Theme picker preview |
+
+## Glass effect and git install
+
+`omarchy-theme-install` refuses to stage any `.lua` file from a git theme, so `hyprland.lua` (border color, window opacity) is ignored. The palette and the shell surfaces (bar, popups, notifications, menus at 0.88 alpha) still apply. For translucent windows without blur, add this to `~/.config/hypr/hyprland.lua`:
+
+```lua
+o.window({ tag = "default-opacity" }, { opacity = "0.88 0.88" })
+```
+
+Submitted to Omarchy as a built-in theme, `hyprland.lua` loads in full.
 
 ## Wallpapers
 
@@ -44,7 +54,7 @@ Upscaled to 4K with waifu2x.
 | Accent (scarf crimson) | `#E0525F` |
 | Background / dark / darker | `#1B1719` / `#121012` / `#0B0909` |
 | Foreground | `#ECE6E4` |
-| Red / green / yellow | `#D6404F` / `#6FA36B` / `#E8C27A` |
+| Danger red / success green / yellow | `#E0525F` / `#6FA36B` / `#E8C27A` |
 | Blue / cyan / magenta | `#7FA3C7` / `#7FB5B0` / `#C9A6B4` |
 
 ## License

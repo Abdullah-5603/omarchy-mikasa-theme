@@ -1,4 +1,4 @@
-# Mikasa Glass — crimson scarf over dark steel, fixed palette for Omarchy 4
+# Mikasa Glass — crimson scarf over dark steel; red is danger, green is success
 # A coordinated palette; these values do not change automatically per wallpaper.
 mode = "dark"
 
@@ -19,7 +19,7 @@ dark_foreground = "#B8AFB0"
 light_foreground = "#F5F0EE"
 bright_foreground = "#FFFFFF"
 
-red = "#D6404F"
+red = "#E0525F"
 yellow = "#E8C27A"
 orange = "#E39A63"
 green = "#6FA36B"
@@ -28,13 +28,17 @@ blue = "#7FA3C7"
 magenta = "#C9A6B4"
 brown = "#A8795A"
 
-bright_red = "#FF6674"
+bright_red = "#E0525F"
 bright_yellow = "#F5D99B"
-bright_green = "#8CC488"
+bright_green = "#6FA36B"
 bright_cyan = "#A3D4CF"
 bright_blue = "#A1C1DE"
 bright_magenta = "#DDBFCB"
 
 # Status colors: one shade of red for danger, one shade of green for success.
-danger = "#D6404F"
+danger = "#E0525F"
 success = "#6FA36B"
+
+# Window borders; read by the generated hyprland.lua, so they also apply on git install.
+hyprland_active_border = "rgba(E0525FFF)"
+hyprland_inactive_border = "rgba(3A3235AA)"
