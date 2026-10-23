@@ -9,7 +9,7 @@ Colors are generated into every Omarchy-themed app (terminal, Neovim, VS Code, b
 ## Install
 
 ```bash
-omarchy-theme-install https://github.com/Abdullah-5603/omarchy-mikasa-glass-theme
+omarchy-theme-install https://github.com/Abdullah-5603/omarchy-mikasa-theme
 ```
 
 ## What's included
